@@ -3,28 +3,28 @@ module.exports = Object.freeze({
     privateKey : "<Your private key>",
     
     // required. Your wallet address   
-    fromAddress : "<Your wallet address>".toLocaleLowerCase(),
+    fromAddress : "0xABbDEFEcB79d8Af35b32DF11ab075FcB1053b337".toLocaleLowerCase(),
     
     // reuiqred. Your target contract address
-    toAddress: "<Your target contract address>".toLocaleLowerCase(),
+    toAddress: "0x582048C4077a34E7c3799962F1F8C5342a3F4b12".toLocaleLowerCase(),
 
     // required. Find out the contract creator address
-    creatorAddress: "<The creator wallet address>".toLocaleLowerCase(),
+    creatorAddress: "0x2019222238B971fC06D34828c6AD0F43DF2F6520".toLocaleLowerCase(),
 
     // required. The price of public mint
-    price: "0.08",                    
+    price: "0.07",                    
     
     // required. How many items you wants to buy
-    maxPriorityFeePerGas : "200", 
+    maxPriorityFeePerGas : "1000", 
     
     // required. The collection contract address you want to buy                                                                           
-    maxFeePerGas : "300",                    
+    maxFeePerGas : "1000",                    
     
     // required. The num you want to mint
-    number: "1",
+    number: "2",
 
     // required. http provider from infura or alchemy. It must be wss
-    wssMainnet: "wss://eth-mainnet.alchemyapi.io/v2/<mainnet api key>",
+    wssMainnet: "9MHkNb3MxGOkQq15rxlIpP7GcPnJ3E76",
 
     // required. http provider from infura or alchemy. It must be wss
     wssRinkeby: "wss://eth-rinkeby.alchemyapi.io/v2/<Rinkeby api key>",
