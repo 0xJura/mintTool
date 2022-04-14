@@ -105,7 +105,7 @@ const pendingTrasactions = async () => {
 
   //-----------------------------------------------------------------
   //--------------- Change this function every time------------------
-  let extraData =  await contract.methods.mintSAC(config.number);
+  let extraData =  await contract.methods.mint(config.2);
   //-----------------------------------------------------------------
   //-----------------------------------------------------------------
 
@@ -128,7 +128,7 @@ const pendingTrasactions = async () => {
           //console.log(decodedData);
           //-----------------------------------------------------------------
           //--------------- Change this function every time------------------
-          if((decodedData.name == 'flipPublicSaleState')){
+          if((decodedData.name == 'setSaleActive')){
           //-----------------------------------------------------------------
           //-----------------------------------------------------------------
             // your code
